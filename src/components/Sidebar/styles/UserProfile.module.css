@@ -1,0 +1,53 @@
+.acctButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    width: 95%;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    color: white;
+    padding: 10px 20px 10px 10px;
+}
+
+.acctButton:hover {
+    background-color: rgb(32, 32, 32);
+    border-radius: 1.7rem;
+}
+
+.photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0.75rem;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.name {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.userName {
+    font-size: 0.8rem;
+    color: gray;
+}
