@@ -1,0 +1,139 @@
+.profileDetails {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coverContainer {
+    height: 40%;
+}
+
+.coverContainer img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.profileInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60%;
+    margin: 0px 20px;
+}
+
+.imgButtoncontainer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.profileimgcontainer img {
+    width: 133px;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: #000;
+    margin-top: -70px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.iconButton,
+.iconButton span,
+.buttonsContainer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconButton {
+    height: 34.4px;
+    width: 34.4px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    border: #333 solid 0.1px;
+    padding: 0px;
+}
+
+.iconButton:hover {
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+    ;
+}
+
+.iconButton span {
+    padding: 0px;
+}
+
+.iconButton svg {
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+}
+
+
+.followerContainer,
+.calendar,
+.username,
+.username span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.user {
+    width: fit-content;
+}
+
+.user svg {
+    height: 20px;
+}
+
+.username {
+    font-size: 1.2rem;
+    font-weight: bold;
+    gap: 3px;
+}
+
+.name {
+    font-size: 1rem;
+    color: gray;
+}
+
+.bio p{
+    size: 5px;
+    color:#E7E9EA;
+}
+
+.calendar {
+    gap: 5px;
+    color: #71767b;
+}
+
+.calendar svg {
+    height: 20px;
+}
+
+.followerContainer {
+    width: 45%;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.followerContainer span {
+    color: #71767b;
+    font-weight: normal;
+}
+
+.username span {
+    color: #1da1f2;
+}

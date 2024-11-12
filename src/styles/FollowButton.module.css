@@ -1,0 +1,22 @@
+.followButton,
+.followButton span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.followButton {
+    border: 0 solid black;
+    padding: 10px 16px;
+    size: 15px;
+    font-weight: bold;
+    color: #000;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.followButton:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}

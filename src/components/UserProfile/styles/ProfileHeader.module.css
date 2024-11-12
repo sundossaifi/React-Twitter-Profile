@@ -1,0 +1,41 @@
+.profileHeaderContainer {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+}
+
+.profileHeaderContainer svg {
+    height: 20px;
+}
+
+.backArrow {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.backArrow:hover {
+    background-color: rgb(32, 32, 32);
+    border-radius: 100%;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    size: 20px;
+}
+
+.userInfo p:nth-child(1) {
+    color: #fff;
+    size: 30px;
+    font-weight: bold;
+}
+
+.userInfo p:nth-child(2) {
+    color: gray;
+    size: 13px;
+}

@@ -1,7 +1,7 @@
 import styles from './styles/Sidebar.module.css'
-import SidebarItem from './SidebarItem';
-import PostButton from './PostButton';
-import UserProfile from './UserProfile';
+import SidebarItem from './components/SidebarItem';
+import PostButton from './components/PostButton';
+import UserProfile from './components/UserProfile';
 import {
     xIcon,
     homeIcone,
@@ -13,7 +13,8 @@ import {
     moreIcon,
     bookmarksIcon,
     communitiesIcon,
-    moreInfo
+    moreInfo,
+    lock
 } from '../../assets/icons';
 
 export default function Sidebar() {
@@ -43,6 +44,7 @@ export default function Sidebar() {
                         handle="@SundosSaifi"
                         profilePicture="https://pbs.twimg.com/profile_images/1819504687021764608/wPp9sHuN_bigger.jpg"
                         moreInfoIcon={moreInfo}
+                        icon={lock}
                     />
                 </footer>
             </div>

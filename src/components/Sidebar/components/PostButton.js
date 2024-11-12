@@ -1,4 +1,4 @@
-import styles from './styles/PostButton.module.css';
+import styles from '../styles/PostButton.module.css';
 
 export default function PostButton({ label }) {
     return (

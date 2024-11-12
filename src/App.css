@@ -13,11 +13,7 @@
   color: #fff;
 }
 
-.right{
-
-}
-
-.center {
-  width:39%;
-  background-color: red;
+.right {
+  /* width: 38%; */
+  background-color: #000;
 }

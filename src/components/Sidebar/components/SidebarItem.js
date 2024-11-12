@@ -1,4 +1,4 @@
-import styles from './styles/SidebarItem.module.css';
+import styles from '../styles/SidebarItem.module.css';
 
 export default function SidebarItem({ icon, label, href }) {
     return (

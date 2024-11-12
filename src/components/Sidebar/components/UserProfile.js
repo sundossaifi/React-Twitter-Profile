@@ -1,6 +1,6 @@
-import styles from './styles/UserProfile.module.css';
+import styles from '../styles/UserProfile.module.css';
 
-export default function UserProfile({ username, handle, profilePicture, moreInfoIcon }) {
+export default function UserProfile({ username, handle, profilePicture, moreInfoIcon,icon }) {
     return (
         <button className={styles.acctButton}>
             <div className={styles.userInfo}>
@@ -8,8 +8,8 @@ export default function UserProfile({ username, handle, profilePicture, moreInfo
                     <img alt={username} src={profilePicture} />
                 </div>
                 <div className={styles.user}>
-                    <div className={styles.name}>{username}</div>
-                    <div className={styles.userName}>{handle}</div>
+                    <div className={styles.username}>{username}{icon}</div>
+                    <div className={styles.name}>{handle}</div>
                 </div>
             </div>
             <div className={styles.moreInfoIcon}>{moreInfoIcon}</div>
