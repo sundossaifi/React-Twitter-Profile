@@ -1,0 +1,22 @@
+.trendItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.trendName{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+.trendName svg {
+    height: 22px;
+    color: gray;
+}
+
+.postsNumber {
+ color: gray;
+ font-size: 12px;
+}

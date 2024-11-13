@@ -1,0 +1,29 @@
+.searchContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 20px;
+    width: 100%;
+    color: gray;
+    border-radius: 25px;
+    background-color: rgb(32, 32, 32);
+}
+
+.searchContainer svg {
+    height: 20px;
+}
+
+
+.searchInput {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: rgb(32, 32, 32);
+}
+
+.searchInput::placeholder {
+    opacity: 1;
+}

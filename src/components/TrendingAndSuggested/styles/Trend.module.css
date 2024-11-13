@@ -1,0 +1,11 @@
+.trend {
+    border: #333 solid 0.1px;
+    border-radius: 15px;
+}
+
+.trendContainer {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

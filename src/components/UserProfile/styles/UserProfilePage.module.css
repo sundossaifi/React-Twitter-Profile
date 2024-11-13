@@ -5,6 +5,8 @@ main {
     width: 39%;
     border-left:#333 solid 0.1px;
     border-right:#333 solid 0.1px;
+    flex-shrink: 0;
+    flex-grow: 0;
     
 }
 
